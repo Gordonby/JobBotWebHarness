@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job-Bot - ChatSite</title>
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="/css/site.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Gordon's Job-Bot</a>
+            </div>
+            <div class="navbar-collapse collapse">
+
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        
+<div class="row">
+    <h2></h2>
+    <p></p>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Seriously?</h2>
+        <p><img src="/images/hedon-bot-a-job-bot-seriously.jpg" class="col-md-12 img-responsive pull-left" /></p>
+        <p>Sure, why not!</p>
+        <p>As a Cloud specialist working for Microsoft, i have to demo the Bot capabilities to our customers and what better way than a practical application of it.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>How does it work then?</h2>
+        <ul>
+            <li>Interract with the Chat bot in the right hand pane.  It's a <a href="https://docs.microsoft.com/en-us/bot-framework/azure/azure-bot-service-template-form" target="_blank">forms-bot</a>, so will gather 5 pieces of information about the job role.  If you haven't chatted with a bot before, go on have a go - it'll just take 60 seconds!</li>
+            <li>Once the bot interaction is complete, it will POST a constructed JSON object to a web service sat in front of a machine learning model.</li>
+            <li>The model will return a percentage indicator of likely interest in the role.</li>
+            <li>If the interest percentage is over 60% then it will give you my real, prioritised email address - not the junk-directing one i use on linkedin.</li>
+        </ul>
+    </div>
+    <div class="col-md-5">
+        <h2>Job-bot</h2>
+        <iframe src='https://webchat.botframework.com/embed/linmessagebot?s=DOcTeYzFvI0.cwA.BmY.paz8gVyBpXeMtO9cNQ-edwskMDOuqny5RWTt8ShFxXA&name=Jeff'></iframe>
+    </div>
+</div>
+
+        <hr />
+        <footer>
+            <p>&copy; 2017</p>
+        </footer>
+    </div>
+
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
